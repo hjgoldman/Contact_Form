@@ -94,11 +94,11 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfi-S3-2sn">
-                                <rect key="frame" x="437" y="1308" width="150" height="50"/>
+                                <rect key="frame" x="336" y="737" width="352" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="SOl-qb-Z69"/>
-                                    <constraint firstAttribute="width" constant="150" id="ihu-4z-tVl"/>
+                                    <constraint firstAttribute="width" constant="352" id="CCl-aK-Roz"/>
+                                    <constraint firstAttribute="height" constant="50" id="Lgt-Df-nOh"/>
                                 </constraints>
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -113,8 +113,7 @@
                             <constraint firstItem="9oK-cx-F7V" firstAttribute="top" secondItem="G6h-wh-o3A" secondAttribute="bottom" constant="82" id="00A-6s-nPe"/>
                             <constraint firstItem="geC-f8-bAb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1nH-DJ-Yly"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="geC-f8-bAb" secondAttribute="bottom" id="5JL-uf-BY8"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gfi-S3-2sn" secondAttribute="bottom" constant="8" id="5sj-4d-sEu"/>
-                            <constraint firstItem="gfi-S3-2sn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H58-o0-gly"/>
+                            <constraint firstItem="gfi-S3-2sn" firstAttribute="top" secondItem="9oK-cx-F7V" secondAttribute="bottom" constant="50" id="AAx-bX-n5W"/>
                             <constraint firstItem="7Xv-ju-gWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HtP-aI-nGT"/>
                             <constraint firstItem="zQI-sy-Eyc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IC2-vs-QZf"/>
                             <constraint firstItem="HRm-JE-7T5" firstAttribute="top" secondItem="G6h-wh-o3A" secondAttribute="bottom" constant="120" id="Jxc-yC-XHT"/>
@@ -131,6 +130,7 @@
                             <constraint firstItem="9oK-cx-F7V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jK1-nq-WWp"/>
                             <constraint firstItem="JTp-Th-fRM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jkf-gn-Xk0"/>
                             <constraint firstItem="geC-f8-bAb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kWz-r0-BuT"/>
+                            <constraint firstItem="gfi-S3-2sn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="omm-h2-9Q6"/>
                         </constraints>
                     </view>
                     <connections>
